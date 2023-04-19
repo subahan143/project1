@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+.navbar > h1 {
+  font-size: 80px;
+  color: brown;
+  padding-left: 30px;
+}
+
+.home {
+  width: 100%;
+  height: 700px;
+  margin-top: -100px;
+  background-image: url(https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2022/01/14172326/netflix.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.op {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(13, 13, 13);
+  position: absolute;
+  opacity: 0.6;
+  z-index: 1;
+}
+form {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-evenly;
+}
+
+form>input {
+  width: 200px;
+  height: 30px;
+}
+form > h1 {
+  color: aliceblue;
+  margin-right: 150px;
+}
+.ipp {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
